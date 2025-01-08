@@ -7,7 +7,7 @@ import fastf1.plotting
 fastf1.plotting.setup_mpl(mpl_timedelta_support=False, misc_mpl_mods=False,
                           color_scheme='fastf1')
 
-session = fastf1.get_session(2022, 14, 'R')
+session = fastf1.get_session(2022, 14   , 'R')
 session.load(telemetry=False, weather=False)
 
 fig, ax = plt.subplots(figsize=(8.0, 4.9))
